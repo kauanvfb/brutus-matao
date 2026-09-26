@@ -1,0 +1,15 @@
+file,origin,usage,notes
+public/videos/brutus-abertura.mp4,user supplied video,opening loop,8 seconds; audio removed; conceptual
+public/poster.webp,user supplied frame,video poster,conceptual
+public/images/cardapio-original.png,user supplied menu,product thumbnails and original menu,412x844; both attachments identical
+public/images/burger-concept.png,generated campaign photo,editorial sections,conceptual; not a catalog product
+public/images/lanches/brutus-brabo.png,user supplied photo enhanced,Brutus Brabo catalog product,quality improvement only
+public/images/lanches/brutus-supremo.png,user supplied photo enhanced,Brutus Supremo catalog product,quality improvement only
+public/images/lanches/brutus-agridoce.png,user supplied photo enhanced,Brutus Agridoce catalog product,quality improvement only
+public/images/lanches/classico-especial.png,user supplied photo enhanced,Clássico Especial catalog product,quality improvement only
+public/images/lanches/blend-turbo.png,user supplied photo enhanced,Blend Turbo catalog product,quality improvement only
+public/images/lanches/blend-classico.png,user supplied photo enhanced,Blend Clássico catalog product,quality improvement only
+public/images/lanches/cheddar-turbo.png,user supplied photo enhanced,Cheddar Turbo catalog product,quality improvement only
+public/images/lanches/brutus-furioso.png,user supplied photo enhanced,Brutus Furioso catalog product,quality improvement only
+public/images/lanches/big-brutus.png,user supplied photo enhanced,Big Brutus catalog product,quality improvement only
+public/images/lanches/blend-carnivoro.png,user supplied photo enhanced,Blend Carnívoro catalog product,quality improvement only

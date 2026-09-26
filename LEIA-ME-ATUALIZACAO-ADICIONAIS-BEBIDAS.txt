@@ -1,0 +1,12 @@
+ATUALIZAÇÃO PARCIAL — NÃO É UM PROJETO NOVO
+
+1. Abra a pasta do projeto que você já está usando: brutus-matao.
+2. Copie o conteúdo desta atualização por cima dela, mantendo as mesmas pastas.
+3. No terminal, dentro de brutus-matao, rode:
+   npm run dev
+
+Se o Supabase já estiver configurado, execute também no SQL Editor:
+- supabase/migrations/202609260003_item_notes.sql
+- supabase/cardapio-brutus.sql
+
+O primeiro arquivo acrescenta observações por item. O segundo atualiza o cardápio sem abrir pedidos ou pagamentos automaticamente.

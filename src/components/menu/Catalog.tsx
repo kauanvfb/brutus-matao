@@ -1,0 +1,7 @@
+'use client'
+import {useState} from 'react'
+import {Search} from 'lucide-react'
+import type {Category,Product} from '@/types'
+import {ProductGrid} from './ProductGrid'
+export function Catalog({categories,products,open,error}:{categories:Category[];products:Product[];open:boolean;error:boolean}){const [category,setCategory]=useState('all'),[query,setQuery]=useState('');const filtered=products.filter(p=>(category==='all'||p.category_id===category)&&`${p.name} ${p.description}`.toLocaleLowerCase('pt-BR').includes(query.toLocaleLowerCase('pt-BR')))
+ return <div className="catalog wrap"><div className="catalog-tools"><div className="category-pills" role="group" aria-label="Filtrar categorias"><button className={category==='all'?'active':''} onClick={()=>setCategory('all')}>Todos</button>{categories.map(c=><button key={c.id} className={category===c.id?'active':''} onClick={()=>setCategory(c.id)}>{c.name}</button>)}</div><label className="catalog-search"><Search size={18}/><span className="sr-only">Buscar no cardápio</span><input placeholder="O que você procura?" value={query} onChange={e=>setQuery(e.target.value)}/></label></div><div className="catalog-result">{filtered.length} {filtered.length===1?'item':'itens'} encontrados</div><ProductGrid products={filtered} open={open} emptyText={error?'Não foi possível carregar o cardápio. Atualize a página para tentar novamente.':products.length?'Nenhum produto corresponde à busca. Experimente outra categoria ou termo.':'O cardápio oficial ainda está sendo preparado. Nenhum produto foi publicado.'}/></div>}

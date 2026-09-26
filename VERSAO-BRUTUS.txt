@@ -1,0 +1,13 @@
+BRUTUS MATÃO — VERSÃO 2026-09-26.2
+
+Esta é a versão com:
+- adicionais Catupiry, Cheddar e Bacon por R$ 5,00;
+- quatro porções da foto enviada;
+- água, suco, refrigerante lata e refrigerante 2 L;
+- opções de refrigerante tradicional e zero;
+- observação separada em cada item;
+- ponto de referência no endereço;
+- envio completo das informações ao WhatsApp;
+- suporte das mesmas informações no pedido salvo no banco.
+
+Projeto correto: brutus-matao

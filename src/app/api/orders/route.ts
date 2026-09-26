@@ -1,0 +1,3 @@
+import {orderSchema} from '@/lib/validations/order'
+import {createOrder,OrderError} from '@/lib/orders/core'
+export async function POST(req:Request){try{if(!process.env.DATABASE_URL)return Response.json({error:'Banco ainda não configurado'},{status:503});const data=orderSchema.parse(await req.json());return Response.json(await createOrder(data),{status:201,headers:{'Cache-Control':'no-store'}})}catch(e){console.error('Falha na criação do pedido',e);return Response.json({error:e instanceof OrderError?e.message:'Pedido não foi criado. Revise os campos e tente novamente.'},{status:e instanceof OrderError?e.status:422})}}

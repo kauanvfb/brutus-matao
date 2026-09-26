@@ -1,0 +1,2 @@
+'use client'
+export default function AdminError({reset}:{error:Error;reset:()=>void}){return <section className="login-page"><div className="login-card" role="alert"><h1>Painel indisponível.</h1><p>Não foi possível carregar os dados. Confira a conexão e a configuração do banco antes de tentar novamente.</p><button className="button button-dark" onClick={reset}>Tentar novamente</button></div></section>}

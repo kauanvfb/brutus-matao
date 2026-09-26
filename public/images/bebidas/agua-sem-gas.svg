@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-labelledby="title">
+  <title id="title">Imagem simbólica de água sem gás</title>
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#423126"/><stop offset="1" stop-color="#171512"/></radialGradient>
+    <linearGradient id="bottle" x1="0" x2="1"><stop stop-color="#dff7ff" stop-opacity=".92"/><stop offset=".5" stop-color="#78c8e8" stop-opacity=".55"/><stop offset="1" stop-color="#effcff" stop-opacity=".9"/></linearGradient>
+  </defs>
+  <rect width="800" height="700" fill="url(#bg)"/>
+  <ellipse cx="400" cy="600" rx="170" ry="35" fill="#000" opacity=".35"/>
+  <path d="M345 105h110v75l38 56v287c0 54-42 87-93 87s-93-33-93-87V236l38-56z" fill="url(#bottle)" stroke="#fff" stroke-opacity=".55" stroke-width="7"/>
+  <rect x="337" y="89" width="126" height="48" rx="12" fill="#d97732"/>
+  <rect x="320" y="315" width="160" height="132" rx="18" fill="#f3e9d9"/>
+  <path d="M400 340c-43 59-57 80-57 109 0 31 25 57 57 57s57-26 57-57c0-29-14-50-57-109z" fill="#58b9df" transform="scale(.58) translate(289 265)"/>
+  <text x="400" y="395" fill="#211e1a" text-anchor="middle" font-family="Arial,sans-serif" font-size="29" font-weight="800">ÁGUA</text>
+  <text x="400" y="425" fill="#6d6258" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" font-weight="700">SEM GÁS</text>
+</svg>

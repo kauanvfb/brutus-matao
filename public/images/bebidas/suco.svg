@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-labelledby="title">
+  <title id="title">Imagem simbólica de suco</title>
+  <defs><radialGradient id="bg"><stop stop-color="#4a2d20"/><stop offset="1" stop-color="#171512"/></radialGradient><linearGradient id="juice" y1="0" y2="1"><stop stop-color="#ffb63c"/><stop offset="1" stop-color="#e46219"/></linearGradient></defs>
+  <rect width="800" height="700" fill="url(#bg)"/>
+  <ellipse cx="395" cy="590" rx="190" ry="34" fill="#000" opacity=".35"/>
+  <path d="M285 180h230l-35 390c-4 34-31 55-64 55h-32c-33 0-60-21-64-55z" fill="#efe6d7" opacity=".92"/>
+  <path d="M304 293h192l-24 266c-2 20-19 33-39 33h-66c-20 0-37-13-39-33z" fill="url(#juice)"/>
+  <path d="M417 293l88-186" stroke="#f3e9d9" stroke-width="17" stroke-linecap="round"/>
+  <circle cx="523" cy="136" r="61" fill="#f08d28"/><path d="M481 136h84M523 94v84" stroke="#ffd797" stroke-width="7"/>
+  <text x="400" y="430" fill="#fff7e8" text-anchor="middle" font-family="Arial,sans-serif" font-size="45" font-weight="900">SUCO</text>
+</svg>

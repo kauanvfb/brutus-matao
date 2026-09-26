@@ -1,0 +1,398 @@
+{
+  "categories": [
+    {
+      "id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "name": "Lanches",
+      "slug": "lanches",
+      "description": "Os lanches do cardápio Brutus."
+    },
+    {
+      "id": "803e555f-faf5-55a8-b631-5dfe3b8b24b3",
+      "name": "Porções",
+      "slug": "porcoes",
+      "description": "Porções para completar o pedido."
+    },
+    {
+      "id": "262947bb-2e7d-5e13-a037-505a8cdba1be",
+      "name": "Bebidas",
+      "slug": "bebidas",
+      "description": "Bebidas geladas para acompanhar."
+    }
+  ],
+  "products": [
+    {
+      "id": "e9c55ece-3dc3-5bef-a59a-a02075d0e373",
+      "name": "Brutus Junior",
+      "slug": "brutus-junior",
+      "description": "Pão, blend de 140 g e tomate.",
+      "price_cents": 2400,
+      "image_url": null,
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "5a7f7477-1e48-554b-8db0-0a987055f7a6",
+      "name": "Blend Clássico",
+      "slug": "blend-classico",
+      "description": "Pão de brioche, blend de 140 g, maionese verde, queijo cheddar fatiado, alface e tomate.",
+      "price_cents": 2800,
+      "image_url": "/images/lanches/blend-classico.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": true,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "e3739e57-6c68-598d-90c6-b6805a07c5d3",
+      "name": "Clássico Especial",
+      "slug": "classico-especial",
+      "description": "Pão de brioche, blend de 140 g, queijo cheddar fatiado, maionese verde, bacon, cebola roxa, alface e tomate.",
+      "price_cents": 3600,
+      "image_url": "/images/lanches/classico-especial.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "5bfe2a7f-15a3-5049-b0ba-53b354c0c614",
+      "name": "Blend Turbo",
+      "slug": "blend-turbo",
+      "description": "Pão de brioche, blend de 140 g, queijo cheddar fatiado, catupiry cremoso, bacon, alface e tomate.",
+      "price_cents": 3600,
+      "image_url": "/images/lanches/blend-turbo.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "8d04e57f-5785-57e8-8236-ae1c6901e75a",
+      "name": "Cheddar Turbo",
+      "slug": "cheddar-turbo",
+      "description": "Pão de brioche, blend de 140 g, cheddar cremoso, cheddar fatiado, bacon, alface e tomate.",
+      "price_cents": 3600,
+      "image_url": "/images/lanches/cheddar-turbo.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": true,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "3f49c700-c126-57be-8891-0c95d371d311",
+      "name": "Brutus Furioso",
+      "slug": "brutus-furioso",
+      "description": "Pão de brioche, blend de 140 g, pimenta jalapeño, queijo fatiado, bacon, alface, tomate e maionese verde.",
+      "price_cents": 3600,
+      "image_url": "/images/lanches/brutus-furioso.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "fd19f2b5-19e7-5511-ba05-3adca49f7deb",
+      "name": "Brutus Agridoce",
+      "slug": "brutus-agridoce",
+      "description": "Pão de brioche, blend de 140 g, queijo fatiado, bacon caramelizado, cebola roxa, molho chipotle, alface e tomate.",
+      "price_cents": 3600,
+      "image_url": "/images/lanches/brutus-agridoce.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "40fe3a98-274a-502b-b073-46352789f63b",
+      "name": "Big Brutus",
+      "slug": "big-brutus",
+      "description": "Pão de brioche, 2 blends de 140 g, alface, queijo, molho Billy & Jack, cebola e picles.",
+      "price_cents": 3900,
+      "image_url": "/images/lanches/big-brutus.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "2b3c5cac-d04b-5f4f-8c56-3002db93f66b",
+      "name": "Brutus Brabo",
+      "slug": "brutus-brabo",
+      "description": "Pão de brioche, 2 hambúrgueres de costela de 120 g, catupiry cremoso, queijo cheddar fatiado e bacon.",
+      "price_cents": 4200,
+      "image_url": "/images/lanches/brutus-brabo.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "83a1b4a4-2bbd-558d-bb01-5fe6a08b4a2b",
+      "name": "Brutus Supremo",
+      "slug": "brutus-supremo",
+      "description": "Pão de brioche, 2 blends de 120 g, queijo cheddar fatiado e cremoso, bacon e cebola caramelizada.",
+      "price_cents": 4200,
+      "image_url": "/images/lanches/brutus-supremo.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": true,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "e55483db-2073-5c36-ab16-54f68cdd5581",
+      "name": "Blend Caramelizado",
+      "slug": "blend-caramelizado",
+      "description": "1 blend de 140 g, cheddar fatiado e cremoso, cebola caramelizada, bacon, alface e tomate.",
+      "price_cents": 3800,
+      "image_url": null,
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "b710c152-3c4b-56a3-bf9b-60bb645a58c5",
+      "name": "Blend Carnívoro",
+      "slug": "blend-carnivoro",
+      "description": "Pão de brioche, 3 blends de 140 g, 3 cheddars fatiados, maionese verde e bacon.",
+      "price_cents": 5200,
+      "image_url": "/images/lanches/blend-carnivoro.png",
+      "category_id": "66b07f24-a0b1-5176-9040-1d90d9342c59",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "9be5c27a-e7b0-5dfe-8b84-f132f2b4e990",
+      "name": "Batata frita palito",
+      "slug": "batata-frita-palito-150g",
+      "description": "Porção de 150 g.",
+      "price_cents": 1200,
+      "image_url": null,
+      "category_id": "803e555f-faf5-55a8-b631-5dfe3b8b24b3",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "c1112748-5a34-52b8-bb07-8ac43de2888d",
+      "name": "Batata McCain Smile",
+      "slug": "batata-mccain-smile-5",
+      "description": "Porção com 5 unidades.",
+      "price_cents": 1200,
+      "image_url": null,
+      "category_id": "803e555f-faf5-55a8-b631-5dfe3b8b24b3",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "6998eba6-7a6d-51ad-aa4a-565464055029",
+      "name": "Batata belga",
+      "slug": "batata-belga",
+      "description": "Porção de batata belga.",
+      "price_cents": 3000,
+      "image_url": null,
+      "category_id": "803e555f-faf5-55a8-b631-5dfe3b8b24b3",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "876815e3-4b42-5526-a6db-a30ad40a6fad",
+      "name": "Batata McCain Smile",
+      "slug": "batata-mccain-smile-15",
+      "description": "Porção com 15 unidades.",
+      "price_cents": 3000,
+      "image_url": null,
+      "category_id": "803e555f-faf5-55a8-b631-5dfe3b8b24b3",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "55463054-9f18-5b94-bbe8-85dcce6a2af1",
+      "name": "Água sem gás",
+      "slug": "agua-sem-gas",
+      "description": "Garrafa de água mineral sem gás.",
+      "price_cents": 300,
+      "image_url": "/images/bebidas/agua-sem-gas.svg",
+      "category_id": "262947bb-2e7d-5e13-a037-505a8cdba1be",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "ffb93e22-9799-5753-9573-11a1a0082818",
+      "name": "Suco",
+      "slug": "suco",
+      "description": "Os sabores serão acrescentados em breve.",
+      "price_cents": 600,
+      "image_url": "/images/bebidas/suco.svg",
+      "category_id": "262947bb-2e7d-5e13-a037-505a8cdba1be",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": []
+    },
+    {
+      "id": "55c565e8-c166-5e06-8096-f0a44eca3978",
+      "name": "Refrigerante lata",
+      "slug": "refrigerante-lata",
+      "description": "Escolha entre as opções tradicionais e zero.",
+      "price_cents": 600,
+      "image_url": "/images/bebidas/refrigerante-lata.svg",
+      "category_id": "262947bb-2e7d-5e13-a037-505a8cdba1be",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": [
+        {
+          "id": "3fc35597-1f2b-57fe-ad72-ba997dfa341f",
+          "title": "Escolha o refrigerante",
+          "min_select": 1,
+          "max_select": 1,
+          "choices": [
+            {"id": "030a7f45-e993-5a2a-bb80-47df4ff5ed43", "label": "Coca-Cola", "price_cents": 0},
+            {"id": "817c587d-659a-5e38-ae81-e5b2b913c7cd", "label": "Coca-Cola Zero", "price_cents": 0},
+            {"id": "101c369a-013c-5e8b-945c-3448c4b683de", "label": "Guaraná Antarctica", "price_cents": 0},
+            {"id": "dfb4012e-ecbf-5816-81d9-ef0993566ceb", "label": "Guaraná Antarctica Zero", "price_cents": 0},
+            {"id": "ebaa4dfb-2df8-562d-a988-319e344e0e9d", "label": "Fanta Laranja", "price_cents": 0},
+            {"id": "6cbac298-7b23-566c-a6fe-ca35d2a3e136", "label": "Fanta Laranja Zero", "price_cents": 0},
+            {"id": "f7b77527-05c6-54cf-bd5e-8cb0cdb5e475", "label": "Sprite", "price_cents": 0},
+            {"id": "15734d3f-7ffc-53db-a6a1-6884bf309ca3", "label": "Sprite Zero", "price_cents": 0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1812f0c0-55a6-5f6f-a668-73627b725b6b",
+      "name": "Refrigerante 2 L",
+      "slug": "refrigerante-2l",
+      "description": "Garrafa de 2 litros; escolha entre tradicional e zero.",
+      "price_cents": 1400,
+      "image_url": "/images/bebidas/refrigerante-2l.svg",
+      "category_id": "262947bb-2e7d-5e13-a037-505a8cdba1be",
+      "featured": false,
+      "available": true,
+      "max_per_order": 20,
+      "groups": [
+        {
+          "id": "2fd9e1be-ea67-56b5-b3cd-72747d791eaa",
+          "title": "Escolha o refrigerante",
+          "min_select": 1,
+          "max_select": 1,
+          "choices": [
+            {"id": "62fb51dd-5216-55fa-8794-6778161e063b", "label": "Coca-Cola", "price_cents": 0},
+            {"id": "d567d7ce-57d1-5d73-b41b-b18c15e14226", "label": "Coca-Cola Zero", "price_cents": 0},
+            {"id": "fff0bf1c-8648-50f3-b44b-b42b1e098b46", "label": "Guaraná Antarctica", "price_cents": 0},
+            {"id": "49c46fe2-847b-5d62-9ec0-de9c626df704", "label": "Guaraná Antarctica Zero", "price_cents": 0},
+            {"id": "806f0a74-a39e-5538-999b-784fd11308d1", "label": "Fanta Laranja", "price_cents": 0},
+            {"id": "628e4e4f-c0c5-56f8-b493-b60ebb160cd6", "label": "Fanta Laranja Zero", "price_cents": 0},
+            {"id": "b1e9aa13-0ec9-57fe-a80e-66591b6fce4f", "label": "Sprite", "price_cents": 0},
+            {"id": "1b85a4b1-242d-5969-84ef-6c01f1b2ecb2", "label": "Sprite Zero", "price_cents": 0}
+          ]
+        }
+      ]
+    }
+  ],
+  "photos": {
+    "e9c55ece-3dc3-5bef-a59a-a02075d0e373": [
+      34,
+      167,
+      66,
+      54
+    ],
+    "5a7f7477-1e48-554b-8db0-0a987055f7a6": [
+      212,
+      160,
+      68,
+      60
+    ],
+    "e3739e57-6c68-598d-90c6-b6805a07c5d3": [
+      32,
+      233,
+      70,
+      63
+    ],
+    "5bfe2a7f-15a3-5049-b0ba-53b354c0c614": [
+      208,
+      232,
+      73,
+      64
+    ],
+    "8d04e57f-5785-57e8-8236-ae1c6901e75a": [
+      31,
+      301,
+      72,
+      63
+    ],
+    "3f49c700-c126-57be-8891-0c95d371d311": [
+      209,
+      300,
+      73,
+      62
+    ],
+    "fd19f2b5-19e7-5511-ba05-3adca49f7deb": [
+      31,
+      372,
+      72,
+      63
+    ],
+    "40fe3a98-274a-502b-b073-46352789f63b": [
+      209,
+      370,
+      73,
+      64
+    ],
+    "2b3c5cac-d04b-5f4f-8c56-3002db93f66b": [
+      32,
+      441,
+      71,
+      69
+    ],
+    "83a1b4a4-2bbd-558d-bb01-5fe6a08b4a2b": [
+      211,
+      440,
+      72,
+      69
+    ],
+    "e55483db-2073-5c36-ab16-54f68cdd5581": [
+      31,
+      514,
+      72,
+      66
+    ],
+    "b710c152-3c4b-56a3-bf9b-60bb645a58c5": [
+      211,
+      511,
+      72,
+      70
+    ]
+  },
+  "portion_photos": {
+    "9be5c27a-e7b0-5dfe-8b84-f132f2b4e990": [3, 6, 53, 45],
+    "c1112748-5a34-52b8-bb07-8ac43de2888d": [3, 49, 55, 49],
+    "6998eba6-7a6d-51ad-aa4a-565464055029": [174, 6, 54, 45],
+    "876815e3-4b42-5526-a6db-a30ad40a6fad": [174, 49, 55, 49]
+  }
+}

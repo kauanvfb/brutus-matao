@@ -1,0 +1,1 @@
+export default function Loading(){return <div className="menu-page wrap" aria-busy="true" aria-label="Carregando cardápio"><div className="skeleton skeleton-title"/><div className="skeleton skeleton-nav"/><div className="product-grid">{[1,2,3,4,5,6].map(n=><div className="skeleton skeleton-product" key={n}/>)}</div></div>}

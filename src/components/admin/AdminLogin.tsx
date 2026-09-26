@@ -1,0 +1,6 @@
+'use client'
+import {useState} from 'react'
+import {createBrowserClient} from '@supabase/ssr'
+export function AdminLogin(){const [email,setEmail]=useState(''),[password,setPassword]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false)
+ async function submit(e:React.FormEvent){e.preventDefault();setBusy(true);setError('');const url=process.env.NEXT_PUBLIC_SUPABASE_URL,key=process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;if(!url||!key){setError('Autenticação ainda não configurada.');setBusy(false);return}const {error}=await createBrowserClient(url,key).auth.signInWithPassword({email,password});if(error){setError('Não foi possível entrar. Confira as credenciais.');setBusy(false);return}location.assign('/admin')}
+ return <form onSubmit={submit}><label className="input-field">Email da equipe<input type="email" value={email} onChange={e=>setEmail(e.target.value)} required autoComplete="username"/></label><label className="input-field">Senha<input type="password" value={password} onChange={e=>setPassword(e.target.value)} required autoComplete="current-password"/></label>{error&&<p className="field-error" role="alert">{error}</p>}<button className="button button-accent" disabled={busy}>{busy?'Entrando…':'Entrar no painel ↗'}</button></form>}

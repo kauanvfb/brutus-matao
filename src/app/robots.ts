@@ -1,0 +1,2 @@
+import type {MetadataRoute} from 'next'
+export default function robots():MetadataRoute.Robots{const origin=process.env.APP_URL||'http://localhost:3000';return {rules:process.env.SITE_APPROVED==='true'?[{userAgent:'*',allow:['/','/cardapio'],disallow:['/admin','/api','/checkout','/pedido','/meus-pedidos']}]:[{userAgent:'*',disallow:'/'}],sitemap:process.env.SITE_APPROVED==='true'?`${origin}/sitemap.xml`:undefined}}

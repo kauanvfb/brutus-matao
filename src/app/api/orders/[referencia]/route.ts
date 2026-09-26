@@ -1,0 +1,2 @@
+import {getTrackedOrder} from '@/lib/orders/core'
+export async function GET(req:Request,{params}:{params:Promise<{referencia:string}>}){const {referencia}=await params;const token=new URL(req.url).searchParams.get('token')||'';if(!process.env.DATABASE_URL)return Response.json({error:'Indisponível'},{status:503});const order=await getTrackedOrder(referencia,token);return order?Response.json(order,{headers:{'Cache-Control':'no-store'}}):Response.json({error:'Link inválido ou expirado'},{status:404})}

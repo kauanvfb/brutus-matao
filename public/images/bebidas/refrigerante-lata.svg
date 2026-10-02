@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" role="img" aria-labelledby="title">
-  <title id="title">Imagem simbólica de refrigerante em lata normal e zero</title>
-  <defs><radialGradient id="bg"><stop stop-color="#3e2d23"/><stop offset="1" stop-color="#171512"/></radialGradient><linearGradient id="red" x1="0" x2="1"><stop stop-color="#7f0f12"/><stop offset=".5" stop-color="#e53d34"/><stop offset="1" stop-color="#76080c"/></linearGradient><linearGradient id="black" x1="0" x2="1"><stop stop-color="#090909"/><stop offset=".5" stop-color="#444"/><stop offset="1" stop-color="#090909"/></linearGradient></defs>
-  <rect width="800" height="700" fill="url(#bg)"/>
-  <ellipse cx="400" cy="605" rx="245" ry="36" fill="#000" opacity=".4"/>
-  <g transform="translate(185 105) rotate(-5 140 245)"><rect x="35" y="15" width="210" height="500" rx="53" fill="url(#red)"/><ellipse cx="140" cy="34" rx="94" ry="24" fill="#d9d2c7"/><ellipse cx="140" cy="493" rx="93" ry="21" fill="#6b0b0e"/><path d="M65 315c70-105 128-82 160-150" stroke="#fff7e9" stroke-width="28" fill="none" stroke-linecap="round"/><text x="140" y="395" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="900">NORMAL</text></g>
-  <g transform="translate(405 96) rotate(5 140 245)"><rect x="35" y="15" width="210" height="500" rx="53" fill="url(#black)"/><ellipse cx="140" cy="34" rx="94" ry="24" fill="#d9d2c7"/><ellipse cx="140" cy="493" rx="93" ry="21" fill="#111"/><path d="M65 315c70-105 128-82 160-150" stroke="#d97732" stroke-width="28" fill="none" stroke-linecap="round"/><text x="140" y="395" fill="#fff" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="900">ZERO</text></g>
-</svg>

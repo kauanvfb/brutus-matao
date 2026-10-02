@@ -12,3 +12,45 @@ html{scroll-padding-top:105px}body{font-family:'Helvetica Neue',Arial,sans-serif
 @media(max-width:600px){.video-hero{height:100svh;min-height:680px}.video-hero .hero-content{padding-top:140px}.hero-video{object-position:63% center}.video-poster{background-position:63% center}.video-hero-controls{gap:12px}.video-toggle{font-size:9px;padding:9px 12px}.hero-scroll{width:36px;height:36px}.video-hero .hero-footer{bottom:23px}.video-hero .hero-footer>span{max-width:135px}.product-info p{min-height:0}.product-card .product-photo{height:220px}.menu-photo-crop svg{max-width:190px}.customizer-image{min-height:210px;height:210px}.customizer-image .menu-photo-crop svg{max-width:185px}.cart-preview h2{font-size:32px}}
 @media(max-height:700px) and (min-width:601px){.video-hero .hero-content{padding-top:130px}.video-hero{min-height:690px}}
 .video-toggle span{border:0!important;padding:0!important}
+.customizer-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #171512;
+}
+
+.customizer-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.header-account{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  white-space:nowrap;
+  padding:.72rem 1rem;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:999px;
+  font-size:.82rem;
+  font-weight:700;
+  color:inherit;
+  transition:
+    background .2s ease,
+    border-color .2s ease,
+    transform .2s ease;
+}
+
+.header-account:hover{
+  background:rgba(255,255,255,.08);
+  border-color:rgba(255,255,255,.28);
+  transform:translateY(-1px);
+}
+
+@media(max-width:900px){
+  .header-account{
+    display:none;
+  }
+}
